@@ -1,0 +1,70 @@
+.recipe {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 60px;
+  padding: 20px 0;
+  margin: 20px;
+  width: 400px;
+  box-shadow: 8px 5px 5px 2px #9e9c9c26;
+  letter-spacing: 1px;
+  border: 1px solid #80808024;
+}
+
+.recipe:hover,
+.recipe:active {
+  transform: scale(1.05);
+  transition: transform 200ms ease-in-out;
+}
+
+.recipe_title {
+  text-align: center;
+  font-size: 1.6rem;
+  color: rgb(58, 58, 58);
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;  
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 40px; 
+}
+
+.recipe h2 {
+  margin: 0;
+  padding: 10px 20px 0px 20px;
+  color: #565656;
+  font-size: 1.3rem;
+}
+
+.image_div {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  margin: -33% 0;
+}
+
+.calories {
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif; font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 33px; 
+  text-align: center;
+  color: #565656;
+}
+
+.ingredients {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.ingredient {
+  padding: 5px 0;
+  line-height: 1.4rem;
+}
+
+.ingredient i {
+  color: #fb466a;
+}
