@@ -1,1 +1,1 @@
-<img src='Recipe-App/project.png' alt='project'>
+<img src='Recipe_App/project.png' alt='project'>
